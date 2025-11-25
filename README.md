@@ -1,16 +1,36 @@
-# task_management_app
+# 📱 Task Management App - Flutter UI
 
-A new Flutter project.
+A pixel-perfect Flutter implementation of a Task Management mobile app based on Figma design. This project demonstrates a clean, modular architecture and strict adherence to UI specifications.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- **Figma Fidelity:** 1:1 implementation of the provided UI design (Colors, Fonts, Layouts).
+- **Modular Architecture:** Code separated into `/views`, `/widgets`, `/models`, and `/routes`.
+- **Navigation:** Implemented using Named Routes and Dynamic Routing (`Navigator.push`).
+- **Data Handling:** Uses a `Task` model to generate dynamic lists.
+- **Bonus Content:** Includes an extra **Profile Dashboard** screen.
 
-A few resources to get you started if this is your first Flutter project:
+## 📂 Project Structure
+lib/
+├── main.dart # Application Entry Point
+├── models/ # Data Models (Task)
+├── routes/ # Route Definitions
+├── themes/ # App Colors & Styles
+├── views/ # Screens (Login, Home, Details, Profile)
+└── widgets/ # Reusable UI Components
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🎨 Visuals
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app uses the specified Figma color palette:
+- **Primary Purple:** `#5F33E1`
+- **Card Background:** `#F4F6FD`
+- **Text Color:** `#24252C`
+
+## 🛠️ Built With
+
+- [Flutter](https://flutter.dev/) - UI Toolkit
+- [Dart](https://dart.dev/) - Programming Language
+- VS Code
+
+---
+*Submitted by Jerome Arsany Mansour Farah*
